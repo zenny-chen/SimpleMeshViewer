@@ -28,3 +28,10 @@ On macOS, there's no need to install FreeGLUT library because the macOS SDK insi
 
 On Windows and macOS platforms, it is recommended to use CMake GUI. It'll be easy to setup the IDE environment.
 
+<br />
+
+## Run the demo
+
+Unzip **models.zip** to the **Demo** directory. Copy the model files (**.m** files) to **Demo** directory.
+
+
