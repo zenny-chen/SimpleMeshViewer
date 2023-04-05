@@ -18,3 +18,13 @@ cmake -DFREEGLUT_ROOT=<freeglut_dir> -S <src_dir> -B <build_dir> --install-prefi
 `<install_dir>` is the directory where the project will generate the final executable. For instance: **C:/Downloads/SimpleMeshViewer-main/install**.
 Note that the directory name should be **`install`**, because the demo will specify this directory hard-coded.
 
+Here is a complete example:
+
+```bash
+cmake -DFREEGLUT_ROOT=C:/freeglut-3.2.2  -S C:/Downloads/SimpleMeshViewer-main  -B C:/Downloads/SimpleMeshViewer-main/build  --install-prefix C:/Downloads/SimpleMeshViewer-main/install
+```
+
+On macOS, there's no need to install FreeGLUT library because the macOS SDK inside the Xcode has already contained GLUT.framework. This project will use the intrinsic GLUT.framework by default. So It is recommended that an Xcode project is generated.
+
+On Windows and macOS platforms, it is recommended to use CMake GUI. It'll be easy to setup the IDE environment.
+
