@@ -1,4 +1,4 @@
-# SimplerMeshViewer
+# SimpleMeshViewer
 A Simple Mesh Viewer Tutorial with C++ Source
 
 <br />
